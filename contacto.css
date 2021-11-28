@@ -47,8 +47,25 @@ max-height: 39rem;
 }
 }
 /*media queries pantalla extra*/
+/*formulario de contacto*/
 
-.plist{
-    text-align: center;
-}
 
+.formu {
+    width: 50%;/*ancho*/
+    border: 3px solid #ccc; /*bordo*/
+    margin: 20px;
+    
+    padding: 20px; /*espacio interno*/
+  }
+  
+  .formu label {
+    font-size: 18px;
+    display: block;
+    width: 100%;/*ocupa todo el espacio, salta a la otra linea*/
+  }
+  .formu input, textarea {
+    margin-bottom:20px; /*espacio hacia abajo*/
+    width: 100%; /*el ancho del cuadriito ocupa todo el espacio*/
+    padding: 10px;/*borde interno de la caja*/
+    border:1px solid #1668C4;
+  }
