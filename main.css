@@ -47,3 +47,8 @@ max-height: 39rem;
 }
 }
 /*media queries pantalla extra*/
+
+.plist{
+    text-align: center;
+}
+
